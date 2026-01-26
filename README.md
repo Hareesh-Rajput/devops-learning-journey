@@ -1,14 +1,88 @@
-# DevOps Zero to Job 🚀 2025-26
+# 🚀 GitLab Setup & Run Using Docker
 
-This repository contains my complete DevOps learning journey with hands-on tasks and real-world practice.
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Containerization-blue?logo=docker" />
+  <img src="https://img.shields.io/badge/GitLab-DevOps-orange?logo=gitlab" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+</p>
 
-🎯 Goal: Become a job-ready DevOps Engineer  
-🛠 Skills: Linux | Git | Docker | CI/CD | Kubernetes | Cloud  
-📆 Status: Actively learning & building
+---
 
-Each folder contains:
-- Task objective
-- Step-by-step implementation
-- Commands used
-- Screenshots
-- Learning outcomes
+## 📌 Project Overview
+This project demonstrates how to **set up and run GitLab using Docker** on a local machine.  
+The objective of this task is to understand Docker containerization, image pulling, container execution, and accessing GitLab locally.
+
+GitLab **Community Edition (CE)** is pulled from Docker Hub and run using Docker Desktop.
+
+---
+
+## 🛠️ Tools & Technologies Used
+- Docker Desktop  
+- GitLab Community Edition (CE)  
+- Docker Hub  
+- Web Browser (Localhost)  
+
+---
+
+## 📦 Step 1: Pull GitLab Image from Docker Hub
+
+### Command Used:
+```bash
+docker pull gitlab/gitlab-ce:nightly
+```
+
+⏱️ Time Taken: 5–10 minutes
+
+---
+
+## ▶️ Step 2: Run GitLab Container
+
+### Command Used:
+```bash
+docker run -p 8000:80 gitlab/gitlab-ce
+```
+
+⏱️ Time Taken: 5–8 minutes
+
+---
+
+## 🌐 Step 3: Access GitLab on Browser
+
+```
+http://localhost:8000/
+```
+
+---
+
+## 🔐 Step 4: Retrieve GitLab Root Password
+
+```bash
+docker exec -it bd6e0f1444aa cat /etc/gitlab/initial_root_password
+```
+
+---
+
+## ✅ Step 5: Login to GitLab Dashboard
+
+Username: root  
+Password: Retrieved from previous step
+
+---
+
+## 🎯 Learning Outcomes
+- Docker image pulling
+- Container execution
+- GitLab setup on Docker
+- Credential retrieval
+
+---
+
+## 📌 Conclusion
+Running GitLab on Docker is a fast and efficient way to learn DevOps fundamentals.
+
+---
+
+## 👤 Author
+**[Hareesh Rajput](https://www.linkedin.com/in/hareesh-rajput)**  
+GitHub: https://github.com/Hareesh-Rajput  
+LinkedIn: https://www.linkedin.com/in/hareesh-rajput/
