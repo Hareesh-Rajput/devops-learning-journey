@@ -34,6 +34,7 @@ docker pull gitlab/gitlab-ce:nightly
 ⏱️ Time Taken: 5–10 minutes
 
 ---
+![Alt Text](123.png)
 
 ## ▶️ Step 2: Run GitLab Container
 
