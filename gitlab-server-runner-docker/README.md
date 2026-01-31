@@ -1,6 +1,8 @@
-🔗 Setup screenshots are available on my <a href="YOUR_LINKEDIN_POST_URL" target="_blank">
-<img src="https://www.linkedin.com/posts/hareesh-rajput_devops-gitlab-cicd-activity-7423398562182541312-O95w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFT2WJgB0rvVQURSHMziJDyJJqcaIPZiZoQ"/> LinkedIn post
+🔗 Setup screenshots are available on my <a href="https://www.linkedin.com/posts/hareesh-rajput_devops-gitlab-cicd-activity-7423398562182541312-O95w" target="_blank">
+<a href="https://www.linkedin.com/posts/hareesh-rajput_devops-gitlab-cicd-activity-7423398562182541312-O95w" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"/> LinkedIn Post
 </a>
+>
 
 # GitLab CI/CD Setup using Docker Compose
 
