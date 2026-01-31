@@ -1,3 +1,7 @@
+🔗 Setup screenshots are available on my <a href="YOUR_LINKEDIN_POST_URL" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="16"/> LinkedIn post
+</a>
+
 # GitLab CI/CD Setup using Docker Compose
 
 This repository contains a complete setup of a **self-hosted GitLab Server** and a **GitLab Runner**
